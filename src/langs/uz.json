@@ -1,0 +1,432 @@
+{
+    "nav": {
+        "links": [
+            {
+                "name": "xizmatlar",
+                "url": "uz/services"
+            },
+            {
+                "name": "biz haqimizda",
+                "url": "uz/about"
+            },
+            {
+                "name": "portfolio",
+                "url": "uz/portfolios"
+            }
+        ],
+        "langs": [
+            {
+                "name": "en"
+            },
+            {
+                "name": "ru"
+            },
+            {
+                "name": "uz"
+            }
+        ],
+        "btn": {
+            "txt": "boshlash",
+            "url": "uz/contact"
+        }
+    },
+    "home": {
+        "header": {
+            "title": "biz bilan birga biznesingizni rivojlantiring.",
+            "txt": "biz yangi bizneslar uchun muvaffaqiyatli dasturiy ta'minot tizimlarini yaratuvchi global IT kompaniyamiz.",
+            "btn": {
+                "txt": "batafsil",
+                "url": "uz/services"
+            }
+        },
+        "main": {
+            "servicesSection": {
+                "title": "innovatsiyon yechimlar",
+                "txt": "texnologiyalar va ular xizmat qiladigan IT bozorlarni chuqur anglagan holda, bizning dasturiy ta'minot ishlab chiqish kompaniyamiz bizneslar va iste'molchilar uchun innovatsiyon ilovalar yaratadi. Professional nuqtai nazarga ega bo'lgan holda, biz zamonaviy texnologiyalardan foydalanib, o'ziga xos biznes muhitingiz uchun samarali yechimlarni taklif qilamiz.",
+                "cards": [
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fwba.svg?alt=media&token=32ff45e6-7a3b-4197-b246-4a49e705d6b5",
+                        "title": "veb-saytlar",
+                        "txt": "sifat kafolati bilan biz biznes veb-saytlaridan tortib veb-ilovalargacha bo'lgan har qanday murakkablikdagi veb-saytlarni yaratamiz."   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fmad.svg?alt=media&token=0d8b3e55-1d56-4f98-aac4-c6c4cb3e62f8",
+                        "title": "mobil ilovalar",
+                        "txt": "biz mobil platformalar imkoniyatlaridan foydalanadigan, keng ko'lamli funksiyalar to'plamini taklif qiladigan va o'ziga xos ko'rinish va qulayliklarga ega bo'lgan Android va iOS ilovalarini yaratamiz."   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=dcf6d62c-916c-4847-9e58-445b5e2df157",
+                        "title": "Logotip & brending",
+                        "txt": "bu bitta logotip bo'ladimi yoki keng qamrovli brending materiallari bo'ladimi, biz sizni barcha platformalarda brendingni universal saqlash uchun kerak bo'lgan hamma narsaga ega bo'lishingizni ta'minlash uchun shu yerdamiz."   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=3c375f2f-812b-4a4c-9e62-da62d12058ef",
+                        "title": "UX / UI dizayn",
+                        "txt": "biz sizning web sayt yoki mobil ilovangiz qulay va zamonaviy ko'rinishga ega bo'lishi uchun UX / UI xizmatlarini taqdim etamiz."   
+                    }
+                ]
+            },
+            "missionSection": {
+                "title": "bizning missiyamiz",
+                "descrTxts": [
+                    {
+                        "txt": "skylinetech - IT kompaniyasida. Biz biznes jarayonlarini avtomatlashtiramiz va veb, mobil va kross-platformalarni ishlab chiqishda xizmatlarni taqdim etamiz. Biz B2B va B2C bozorlari uchun murakkab IT dastur ishlab chiqamiz. Biz muntazam va uzoq muddatli biznes jarayonlarini oson va qulayroq qilamiz."
+                    },
+                    {
+                        "txt": "biz nafaqat dasturiy ta'minotni ishlab chiqamiz, balki biznesingizni yanada muvaffaqiyatli qilish uchun sohangizni tushunishga intilamiz. Biz sizga o'z bilimlarimizni taqdim etamiz va o'z sohangizda birinchilardan bo’lishingizga yordam beramiz. Bu shuni anglatadiki, biz nafaqat sizga kerak bo'lgan dasturiy ta'minotni ishlab chiqamiz, balki kelgusi yillar davomida qo'llab-quvvatlaymiz."
+                    },
+                    {
+                        "txt": "biz bilan bog'laning va biz sizning biznesingiz muvaffaqiyatini qanday oshirishni muhokama qilamiz!"
+                    }
+                ],
+                "btnTxt": "batafsil"
+            },
+            "statisticSection": {
+                "title": "biz raqamlarimiz bilan faxrlanamiz",
+                "infoNumbers": [
+                    {
+                        "num": 3,
+                        "name": "yillik tajriba"
+                    },
+                    {
+                        "num": 5,
+                        "name": "biznes hamkorlar"
+                    },
+                    {
+                        "num": 5,
+                        "name": "proyektlar"
+                    },
+                    {
+                        "num": 2,
+                        "name": "butun dunyo mamlakatlari"
+                    },
+                    {
+                        "num": 3,
+                        "name": "sanoat mukofotlari"
+                    }
+                ]
+            },
+            "partnersSection": {
+                "title": "bizning hamkorlarimiz",
+                "descr": {
+                    "title": "biznesingizni tezlashtirishga tayyormisiz?",
+                    "txt": "agar siz biznesingizni rivojlantirishga tayyor bo'lsangiz va bizning muvaffaqiyatli mijozlarimizdan biri bo'lishni xoxlasangiz. Hoziroq biz bilan bog'laning! Biz sizni kutamiz!",
+                    "btnTxt": "boshlash"
+                }
+            }
+        },
+        "footer": {
+            "contacts": [
+                {
+                    "txt": "+998 99 419-40-13",
+                    "url": "tel:+998994194013"
+                },
+                {
+                    "txt": "+998 93 110-49-50",
+                    "url": "tel:+998931104950"
+                },
+                {
+                    "txt": "info@skylinetech.uz",
+                    "url": "mailto:info@skylinetech.uz"
+                },
+                {
+                    "txt": "25 Jangoh, Tashkent",
+                    "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
+                }
+            ],
+            "links": [
+                {
+                    "name": "xizmatlar",
+                    "url": "uz/services"
+                },
+                {
+                    "name": "biz haqimizda",
+                    "url": "uz/about"
+                },
+                {
+                    "name": "portfolio",
+                    "url": "uz/portfolios"
+                },
+                {
+                    "name": "blog",
+                    "url": "uz/blog"
+                }
+            ],
+            "form": {
+                "title": "bizning xabarnomamizga obuna bo'ling",
+                "emailInpTxt": "elektron pochta",
+                "btnTxt": "yuborish"
+            },
+            "socialLinks": {
+                "title": "bizni kuzatib boring:"
+            }
+        }
+    },
+    "services": {
+        "header": {
+            "title": "biznesni avtomatlashtirishning yangi davriga xush kelibsiz"
+        },
+        "main": {
+            "servicesSection": {
+                "title": "our services",
+                "list": [
+                    {
+                        "name": "veb-saytlar",
+                        "txt": "sifat kafolati bilan biz biznes veb-saytlaridan tortib veb-ilovalargacha bo'lgan har qanday murakkablikdagi veb-saytlarni yaratamiz.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fwebd.svg?alt=media&token=9833e9f7-99d5-4502-9b84-39c9501cb310"
+                    },
+                    {
+                        "name": "mobil ilovalar",
+                        "txt": "biz mobil platformalar imkoniyatlaridan foydalanadigan, keng ko'lamli funksiyalar to'plamini taklif qiladigan va o'ziga xos ko'rinish va qulayliklarga ega bo'lgan Android va iOS ilovalarini yaratamiz.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fmad.svg?alt=media&token=d6a7a7fa-6c6f-437d-b0a2-ccfb2b03748e"
+                    },
+                    {
+                        "name": "logotip & brending",
+                        "txt": "bu bitta logotip bo'ladimi yoki keng qamrovli brending materiallari bo'ladimi, biz sizni barcha platformalarda brendingni universal saqlash uchun kerak bo'lgan hamma narsaga ega bo'lishingizni ta'minlash uchun shu yerdamiz.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Flb.svg?alt=media&token=fe1c8477-5685-4eb3-9044-41936fce5cb0"
+                    },
+                    {
+                        "name": "UX / UI dizayn",
+                        "txt": "biz sizning web sayt yoki mobil ilovangiz qulay va zamonaviy ko'rinishga ega bo'lishi uchun UX / UI xizmatlarini taqdim etamiz.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fuud.svg?alt=media&token=ab6bb662-9d26-4667-a130-aa8f5204382b"
+                    }
+                ],
+                "info": {
+                    "title": "biz sizning ekotizimingiz bilan birlashamiz",
+                    "txt": "raqamli imkoniyatlarni aniqlash va taqdim etishda o'z toifasidagi eng yaxshi usullardan foydalangan holda bizneslarni rivojlanishiga yordam beramiz."
+                }
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "title": "bizning missiyamiz",
+            "txt": "bizning asosiy maqsadimiz zamonaviy IT texnologiyalaridan foydalangan holda bizneslarni rivojlanishiga hissa qo'shish."
+        },
+        "main": {
+            "aboutSection": {
+                "title": "bizning hikoya",
+                "infoTxts": [
+                    {
+                        "txt": "skylineTech jamoasi sifatni moliyaviy manfaatlardan ustun koʻradi . Aniqrogʻi , biz kompyuterlar bilan emas insonlar bilan ishlaymiz . Mijozlarimiz bergan izohlar ham SkylineTech'ning ishonib topshirilgan vazifa va majburiyatlarga mas'uliyat bilan yondashishi , ahil jamoaviy ish jarayonini yuritishini tasdiqlaydi . Zero , biz tendensiyalarni quvish emas , balki ularni yaratish , xalqaro standartlarga asoslangan faoliyat olib borish bilan IT sohasida yetakchi jamoa boʻlishga intilyapmiz . Shu kungacha yaratgan loyihalarimiz mazkur soʻzlarimiz dalili , siz uchun esa inkor etib boʻlmas tanlov ekanligimizning isboti boʻlishi shubhasiz"
+                    }
+                ]
+            }
+        }
+    },
+    "portfolios": {
+        "header": {
+            "title": "biznesni avtomatlashtirish dasturlari",
+            "txt": "ushbu dastur portfellari korxonalarni quyidagi tarmoqlarda avtomatlashtirish uchun mo'ljallangan."
+        },
+        "main": {
+            "programsSection": {
+                "types": [
+                    {
+                        "name": "all programs",
+                        "type": "all"
+                    },
+                    {
+                        "name": "hospitality",
+                        "type": "med"
+                    },
+                    {
+                        "name": "education center",
+                        "type": "edu"
+                    },
+                    {
+                        "name": "restaurant",
+                        "type": "food"
+                    }
+                ],
+                "typesList": [
+                    {
+                        "name": "yangi boshlanuvchilar uchun bulutli tahlil",
+                        "ptp": 1,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fbooking.png?alt=media&token=4b02ecb5-ed5b-455c-b665-1dbd4429dbb7",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "dasturingizni shu yerda tasvirlab bering. Nima uchun odamlar qo'shilishlari kerak? Odamlarga ishtirok etishdan qanday foyda olishlari mumkinligini aytib berish uchun qisqa ta'sirli matndan foydalaning. Ajoyib tavsif odamlarni dasturingizga qo'shilish ehtimolini oshiradi."
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    },
+                    {
+                        "name": "ma'lumotlarga asoslangan qarorlar qabul qilish",
+                        "ptp": 0,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Feducation.png?alt=media&token=9b220a95-67f1-4f7e-9958-4883ceada486",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "dasturingizni shu yerda tasvirlab bering. Nima uchun odamlar qo'shilishlari kerak? Odamlarga ishtirok etishdan qanday foyda olishlari mumkinligini aytib berish uchun qisqa ta'sirli matndan foydalaning. Ajoyib tavsif odamlarni dasturingizga qo'shilish ehtimolini oshiradi."
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    },
+                    {
+                        "name": "ma'lumotlarni tahlil qilish vositalari",
+                        "ptp": 0,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Ffooodie.png?alt=media&token=b41db58b-b4bc-4237-bb7f-5ccdeb07257b",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "dasturingizni shu yerda tasvirlab bering. Nima uchun odamlar qo'shilishlari kerak? Odamlarga ishtirok etishdan qanday foyda olishlari mumkinligini aytib berish uchun qisqa ta'sirli matndan foydalaning. Ajoyib tavsif odamlarni dasturingizga qo'shilish ehtimolini oshiradi."
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    }
+                ]
+            }
+        }
+    },
+    "contactWithUs": {
+        "header": {
+            "title": "biz bilan yaxshiroq dasturiy taminot yarating",
+            "txt": "biz yangi bizneslar uchun muvaffaqiyatli dasturiy ta'minot tizimlarini yaratuvchi global IT kompaniyamiz."
+        },
+        "main": {
+            "contactSection": {
+                "descr": {
+                    "txt": "agar siz biznesingizni rivojlantirishga tayyor bo'lsangiz va bizning muvaffaqiyatli mijozlarimizdan biri bo'lishni xoxlasangiz. Hoziroq biz bilan bog'laning! Biz sizni kutamiz!"
+                },
+                "formNames": {
+                    "fName": "ism",
+                    "lName": "familiya",
+                    "email": "elektron pochta",
+                    "company": "kompaniya",
+                    "phone": "telefon",
+                    "job": "lavozim",
+                    "submitTxt": "yuborish"
+                }
+            }
+        }
+    },
+    "switchLang": "tilni ozgartirish"
+}

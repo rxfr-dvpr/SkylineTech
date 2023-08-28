@@ -1,9 +1,28 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<template>
+  <HomeHeader/>
+
+  <main class="main"></main>
+</template>
+
+<script>
+import HomeHeader from '@/components/homePage/HomeHeader.vue'
+
+export default {
+  name: 'Home View',
+  components: {
+    HomeHeader
+  }
+}
+
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style lang="scss" scoped>
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+</style>

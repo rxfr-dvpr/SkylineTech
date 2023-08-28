@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --primary-color: #fff;
+    --main-red: #fd6262;
+    --main-gray: #8a8a8a;
+    --main-lt-blue: #889CE7;
+    --main-black: #141416;
+}
+
+html {
+    background: var(--main-black);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+}
+
+.container {
+    max-width: 1808px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-btn {
+    background: rgb(14, 14, 16);
+    border: solid 1px #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    padding: 12px 14px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    
+    &:hover {
+        color: var(--main-black);
+        background: var(--main-lt-blue);
+        border-color: var(--main-lt-blue);
+    }
+}
+
+.red-btn {
+    background: var(--main-red);
+    border: 1px solid var(--main-red);
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: var(--main-black);
+    padding: 15px 28px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    
+    &:hover {
+        color: var(--primary-color);
+        background: var(--main-black);
+        border-color: var(--primary-color);
+    }
+}

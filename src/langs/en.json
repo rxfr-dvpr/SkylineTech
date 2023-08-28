@@ -1,0 +1,459 @@
+{
+    "nav": {
+        "links": [
+            {
+                "name": "services",
+                "url": "services"
+            },
+            {
+                "name": "about",
+                "url": "about"
+            },
+            {
+                "name": "portfolios",
+                "url": "portfolios"
+            }
+        ],
+        "langs": [
+            {
+                "name": "en"
+            },
+            {
+                "name": "ru"
+            },
+            {
+                "name": "uz"
+            }
+        ],
+        "btn": {
+            "txt": "get started",
+            "url": "contact"
+        }
+    },
+    "home": {
+        "header": {
+            "title": "build better software",
+            "txt": "we’re a global software engineering company making success stories for new businesses.",
+            "btn": {
+                "txt": "learn more",
+                "url": "services"
+            }
+        },
+        "main": {
+            "servicesSection": {
+                "title": "application services",
+                "txt": "using a deep understanding of technology and the markets they serve, our software development company creates business and consumer apps. with a professional outlook, we offer workable solutions for your specific business environment by looking beyond technology.",
+                "cards": [
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fwba.svg?alt=media&token=32ff45e6-7a3b-4197-b246-4a49e705d6b5",
+                        "title": "web applications",
+                        "txt": "with quality assurance, we create websites of any complexity, from business websites to web applications."   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fmad.svg?alt=media&token=0d8b3e55-1d56-4f98-aac4-c6c4cb3e62f8",
+                        "title": "mobile app development",
+                        "txt": "we create native android and ios applications that take advantage of the capabilities of the mobile platforms, offer extensive feature sets, and have unique looks and feels"   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=dcf6d62c-916c-4847-9e58-445b5e2df157",
+                        "title": "logo & branding",
+                        "txt": "we work across all budgets to give you exactly what you need to help with your branding. We’re here to support you to ensure you have everything you need to keep your branding universal across all platforms"   
+                    },
+                    {
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=3c375f2f-812b-4a4c-9e62-da62d12058ef",
+                        "title": "UX / UI design",
+                        "txt": "we are responsible for the design and implementation of all the experiences a user has when interacting with a digital tool, like website. We work closely with marketing team and designers to ensure seamless web/mobile design and the successful implementation of UI/UX best practices and principles across all digital platforms."   
+                    }
+                ]
+            },
+            "missionSection": {
+                "title": "our mission",
+                "descrTxts": [
+                    {
+                        "txt": "skylineTech is an enterprise custom software development company. We automate business processes and provide services in web, desktop, mobile and cross-platform development. We design and develop complex IT products for the B2B and B2C markets. We make routine and long-term business processes easier and more accessible."
+                    },
+                    {
+                        "txt": "we don’t just develop software, we strive to get an understanding of your industry to make your business more successful. We provide you with our expert knowledge and help you become the number one in your particular sphere. We adhere to full-cycle development process. This means we will not only develop the software you need but also provide support for years to come. Projects we worked on have helped hundreds of thousands of users."
+                    },
+                    {
+                        "txt": "contact us and we will discuss how to Increase your business profitability!"
+                    }
+                ],
+                "btnTxt": "learn more"
+            },
+            "statisticSection": {
+                "title": "we take pride in our numbers",
+                "infoNumbers": [
+                    {
+                        "num": 3,
+                        "name": "years of experience"
+                    },
+                    {
+                        "num": 5,
+                        "name": "business partners"
+                    },
+                    {
+                        "num": 5,
+                        "name": "products installed"
+                    },
+                    {
+                        "num": 2,
+                        "name": "countries world wide"
+                    },
+                    {
+                        "num": 3,
+                        "name": "industry awards"
+                    }
+                ]
+            },
+            "partnersSection": {
+                "title": "our partners",
+                "descr": {
+                    "title": "are you ready to accelerate your business?",
+                    "txt": "if you are ready to accelerate your business and be one of our success stories. Contact us now! We are waiting for you!",
+                    "btnTxt": "get started"
+                }
+            }
+        },
+        "footer": {
+            "contacts": [
+                {
+                    "txt": "+998 99 419-40-13",
+                    "url": "tel:+998994194013"
+                },
+                {
+                    "txt": "+998 93 110-49-50",
+                    "url": "tel:+998931104950"
+                },
+                {
+                    "txt": "info@skylinetech.uz",
+                    "url": "mailto:info@skylinetech.uz"
+                },
+                {
+                    "txt": "25 Jangoh, Tashkent",
+                    "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
+                }
+            ],
+            "links": [
+                {
+                    "name": "services",
+                    "url": "services"
+                },
+                {
+                    "name": "about",
+                    "url": "about"
+                },
+                {
+                    "name": "portfolios",
+                    "url": "portfolios"
+                },
+                {
+                    "name": "blog",
+                    "url": "blog"
+                }
+            ],
+            "form": {
+                "title": "subscribe to our newsletter",
+                "emailInpTxt": "email",
+                "btnTxt": "submit"
+            },
+            "socialLinks": {
+                "title": "follow us on:"
+            }
+        }
+    },
+    "services": {
+        "header": {
+            "title": "dive into the new age of business automation"
+        },
+        "main": {
+            "servicesSection": {
+                "title": "our services",
+                "list": [
+                    {
+                        "name": "web development",
+                        "txt": "with quality assurance, we create websites of any complexity, from business websites to web applications.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fwebd.svg?alt=media&token=9833e9f7-99d5-4502-9b84-39c9501cb310"
+                    },
+                    {
+                        "name": "mobile app development",
+                        "txt": "we create native Android and iOS applications that take advantage of the capabilities of the mobile platforms, offer extensive feature sets, and have unique looks and feels",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fmad.svg?alt=media&token=d6a7a7fa-6c6f-437d-b0a2-ccfb2b03748e"
+                    },
+                    {
+                        "name": "logo & branding",
+                        "txt": "we work across all budgets to give you exactly what you need to help with your branding. Whether that’s a single logo or whether that’s comprehensive branding materials, we’re here to support you to ensure you have everything you need to keep your branding universal across all platforms",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Flb.svg?alt=media&token=fe1c8477-5685-4eb3-9044-41936fce5cb0"
+                    },
+                    {
+                        "name": "UX / UI design",
+                        "txt": "we are responsible for the design and implementation of all the experiences a user has when interacting with a digital tool, like website. We work closely with marketing team and designers to ensure seamless web/mobile design and the successful implementation of UI/UX best practices and principles across all digital platforms.",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/ServicesPage%2FservicesSection%2Fuud.svg?alt=media&token=ab6bb662-9d26-4667-a130-aa8f5204382b"
+                    }
+                ],
+                "info": {
+                    "title": "we integrate with your ecosystem",
+                    "txt": "the web is our neighborhood, and we’re obsessed with building it bigger and better. With so many technology choices, the right partner is one that matches those choices to your business goals."
+                }
+            }
+        }
+    },
+    "about": {
+        "header": {
+            "title": "our mission",
+            "txt": "you run your business. We take care of your development needs. Get access to an entire team of experts, ready whenever you need us."
+        },
+        "main": {
+            "aboutSection": {
+                "title": "who we are",
+                "infoTxts": [
+                    {
+                        "txt": "we want to see more prosperous people on the planet. A lot more"
+                    },
+                    {
+                        "txt": "the people we have hired and the services we provide aim to be the best to work with and a great value for our customers. The success of our clients is just as important as the success of our team."
+                    },
+                    {
+                        "txt": "along the way, we are experimenting with new models for how to establish distributed teams and add additional purpose and fulfillment to the work in addition to high pay. To make it easier to enjoy one's work, we wish to eliminate the pressure and arbitrary limitations. We understand that the most effective team members are those who are content and happy in their roles."
+                    }
+                ]
+            }
+        }
+    },
+    "portfolios": {
+        "header": {
+            "title": "business automation programs",
+            "txt": "these program portfolios are designed to automate businesses in following industrias."
+        },
+        "main": {
+            "programsSection": {
+                "types": [
+                    {
+                        "name": "all programs",
+                        "type": "all"
+                    },
+                    {
+                        "name": "hospitality",
+                        "type": "med"
+                    },
+                    {
+                        "name": "education center",
+                        "type": "edu"
+                    },
+                    {
+                        "name": "restaurant",
+                        "type": "food"
+                    }
+                ],
+                "typesList": [
+                    {
+                        "name": "booking system for hotels",
+                        "ptp": 1,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fbooking.png?alt=media&token=4b02ecb5-ed5b-455c-b665-1dbd4429dbb7",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "an automated online booking system allows a customer to do all the work for you – they are served up a selection of free spaces, they choose a date and time that best suits them, then the key in all relevant information."
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    },
+                    {
+                        "name": "education center",
+                        "ptp": 0,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Feducation.png?alt=media&token=9b220a95-67f1-4f7e-9958-4883ceada486",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "the key information required by OFSTED."
+                                },
+                                {
+                                    "txt": "up to date, professional photos."
+                                },
+                                {
+                                    "txt": "your school calendar."
+                                },
+                                {
+                                    "txt": "a school news page."
+                                },
+                                {
+                                    "txt": "a well crafted “About Us” page & a welcome from the Head Teacher."
+                                },
+                                {
+                                    "txt": "an FAQs page."
+                                },
+                                {
+                                    "txt": "your school newsletter."
+                                },
+                                {
+                                    "txt": "a contact form."
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    },
+                    {
+                        "name": "restaurant",
+                        "ptp": 0,
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Ffooodie.png?alt=media&token=b41db58b-b4bc-4237-bb7f-5ccdeb07257b",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "the principal objective of your website should always be to attract customers to your restaurant and as such an online booking function is the most essential feature. This may lead to another page with your restaurant's opening times and telephone number for those wanting to make reservations by phone"
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    }
+                ]
+            }
+        }
+    },
+    "contactWithUs": {
+        "header": {
+            "title": "build better software",
+            "txt": "we’re a global software engineering company making success stories."
+        },
+        "main": {
+            "contactSection": {
+                "descr": {
+                    "txt": "if you are ready to accelerate your business and be one of our success stories. Contact us now! We are waiting for you!"
+                },
+                "formNames": {
+                    "fName": "first name",
+                    "lName": "last name",
+                    "email": "email",
+                    "company": "company",
+                    "phone": "phone",
+                    "job": "job title",
+                    "submitTxt": "submit"
+                }
+            }
+        }
+    },
+    "switchLang": "switch language"
+}
