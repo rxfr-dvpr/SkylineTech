@@ -55,12 +55,12 @@
                         "txt": "мы создаем приложения для Android и iOS, которые используют возможности мобильных платформ, предлагают широкий набор функций и имеют уникальный внешний вид."   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=dcf6d62c-916c-4847-9e58-445b5e2df157",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=2fc733be-3c8c-4654-993a-8a1a80271f6c",
                         "title": "логотип & Брендинг",
                         "txt": "мы работаем с любым бюджетом, чтобы предоставить вам именно то, что вам нужно для продвижения вашего бренда. Мы здесь, чтобы поддержать вас, чтобы у вас было все необходимое, чтобы ваш брендинг был универсальным на всех платформах."   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=3c375f2f-812b-4a4c-9e62-da62d12058ef",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=65170503-c4ae-4deb-97ae-036597c65b6f",
                         "title": "UX / UI дизайн",
                         "txt": "мы несем ответственность за разработку и реализацию всего опыта взаимодействия пользователя с цифровым инструментом, таким как веб-сайт. Мы тесно сотрудничаем с маркетинговой командой и дизайнерами, чтобы обеспечить бесшовный веб-дизайн и дизайн для мобильных устройств, а также успешное внедрение лучших практик и принципов UI/UX на всех цифровых платформах."   
                     }
@@ -79,7 +79,10 @@
                         "txt": "свяжитесь с нами, и мы обсудим, как повысить прибыльность вашего бизнеса!"
                     }
                 ],
-                "btnTxt": "учить больше"
+                "btn": {
+                    "txt":  "учить больше",
+                    "url": "ru/about"
+                }
             },
             "statisticSection": {
                 "title": "мы гордимся нашими номерами",

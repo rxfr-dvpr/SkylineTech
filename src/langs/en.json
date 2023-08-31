@@ -55,12 +55,12 @@
                         "txt": "we create native android and ios applications that take advantage of the capabilities of the mobile platforms, offer extensive feature sets, and have unique looks and feels"   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=dcf6d62c-916c-4847-9e58-445b5e2df157",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=2fc733be-3c8c-4654-993a-8a1a80271f6c",
                         "title": "logo & branding",
                         "txt": "we work across all budgets to give you exactly what you need to help with your branding. We’re here to support you to ensure you have everything you need to keep your branding universal across all platforms"   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=3c375f2f-812b-4a4c-9e62-da62d12058ef",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=65170503-c4ae-4deb-97ae-036597c65b6f",
                         "title": "UX / UI design",
                         "txt": "we are responsible for the design and implementation of all the experiences a user has when interacting with a digital tool, like website. We work closely with marketing team and designers to ensure seamless web/mobile design and the successful implementation of UI/UX best practices and principles across all digital platforms."   
                     }
@@ -79,7 +79,10 @@
                         "txt": "contact us and we will discuss how to Increase your business profitability!"
                     }
                 ],
-                "btnTxt": "learn more"
+                "btn": {
+                    "txt":  "learn more",
+                    "url": "about"
+                }
             },
             "statisticSection": {
                 "title": "we take pride in our numbers",

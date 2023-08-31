@@ -55,12 +55,12 @@
                         "txt": "biz mobil platformalar imkoniyatlaridan foydalanadigan, keng ko'lamli funksiyalar to'plamini taklif qiladigan va o'ziga xos ko'rinish va qulayliklarga ega bo'lgan Android va iOS ilovalarini yaratamiz."   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=dcf6d62c-916c-4847-9e58-445b5e2df157",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Flb.svg?alt=media&token=2fc733be-3c8c-4654-993a-8a1a80271f6c",
                         "title": "Logotip & brending",
                         "txt": "bu bitta logotip bo'ladimi yoki keng qamrovli brending materiallari bo'ladimi, biz sizni barcha platformalarda brendingni universal saqlash uchun kerak bo'lgan hamma narsaga ega bo'lishingizni ta'minlash uchun shu yerdamiz."   
                     },
                     {
-                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=3c375f2f-812b-4a4c-9e62-da62d12058ef",
+                        "icon": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fuud.svg?alt=media&token=65170503-c4ae-4deb-97ae-036597c65b6f",
                         "title": "UX / UI dizayn",
                         "txt": "biz sizning web sayt yoki mobil ilovangiz qulay va zamonaviy ko'rinishga ega bo'lishi uchun UX / UI xizmatlarini taqdim etamiz."   
                     }
@@ -79,7 +79,10 @@
                         "txt": "biz bilan bog'laning va biz sizning biznesingiz muvaffaqiyatini qanday oshirishni muhokama qilamiz!"
                     }
                 ],
-                "btnTxt": "batafsil"
+                "btn": {
+                    "txt":  "batafsil",
+                    "url": "uz/about"
+                }
             },
             "statisticSection": {
                 "title": "biz raqamlarimiz bilan faxrlanamiz",

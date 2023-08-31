@@ -21,6 +21,7 @@ export default {
     name: 'Header',
     mounted() {
         const headerImg = document.querySelector('.header-bg');
+        
         window.addEventListener('scroll', () => {
             let num = window.scrollY / 100
             // headerImg.style.transform = `scale(${window.scrollY <= 0 ? '1' : num})`
