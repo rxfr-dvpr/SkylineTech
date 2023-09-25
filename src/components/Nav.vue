@@ -5,8 +5,8 @@
               <div class="row">
 
                   <router-link to="/" class="nav-logo">
-                      <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-1.png?alt=media&token=de7d2b81-04cd-4078-b868-eec18136cead" alt="" class="logo-brand">
-                      <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-2.png?alt=media&token=966cff9d-4c30-402b-89bb-680172db7134" alt="" class="logo-name">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-1.png?alt=media&token=de7d2b81-04cd-4078-b868-eec18136cead" alt="" class="logo-brand">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-2.png?alt=media&token=966cff9d-4c30-402b-89bb-680172db7134" alt="" class="logo-name">
                   </router-link>
 
                   <div class="nav__collapse">
@@ -97,6 +97,8 @@ export default {
     }
 
     &-logo {
+        max-width: max-content;
+        width: 100%;
         display: flex;
         align-items: center;
         gap: 10px;

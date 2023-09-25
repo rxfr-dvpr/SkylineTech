@@ -117,52 +117,6 @@
                     "btnTxt": "начать"
                 }
             }
-        },
-        "footer": {
-            "contacts": [
-                {
-                    "txt": "+998 99 419-40-13",
-                    "url": "tel:+998994194013"
-                },
-                {
-                    "txt": "+998 93 110-49-50",
-                    "url": "tel:+998931104950"
-                },
-                {
-                    "txt": "info@skylinetech.uz",
-                    "url": "mailto:info@skylinetech.uz"
-                },
-                {
-                    "txt": "25 Jangoh, Tashkent",
-                    "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
-                }
-            ],
-            "links": [
-                {
-                    "name": "услуги",
-                    "url": "ru/services"
-                },
-                {
-                    "name": "компания",
-                    "url": "ru/about"
-                },
-                {
-                    "name": "портфолио",
-                    "url": "ru/portfolios"
-                },
-                {
-                    "name": "блог",
-                    "url": "ru/blog"
-                }
-            ],
-            "form": {
-                "title": "hодписывайтесь на нашу новостную рассылку",
-                "emailInpTxt": "эл. адрес",
-                "btnTxt": "представлять на рассмотрение"
-            },
-            "socialLinks": {
-                "title": "подпишитесь на нас в:"
-            }
         }
     },
     "services": {
@@ -435,6 +389,52 @@
                     "submitTxt": "представлять на рассмотрение"
                 }
             }
+        }
+    },
+    "footer": {
+        "contacts": [
+            {
+                "txt": "+998 99 419-40-13",
+                "url": "tel:+998994194013"
+            },
+            {
+                "txt": "+998 93 110-49-50",
+                "url": "tel:+998931104950"
+            },
+            {
+                "txt": "info@skylinetech.uz",
+                "url": "mailto:info@skylinetech.uz"
+            },
+            {
+                "txt": "25 Jangoh, Tashkent",
+                "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
+            }
+        ],
+        "links": [
+            {
+                "name": "услуги",
+                "url": "ru/services"
+            },
+            {
+                "name": "компания",
+                "url": "ru/about"
+            },
+            {
+                "name": "портфолио",
+                "url": "ru/portfolios"
+            },
+            {
+                "name": "блог",
+                "url": "ru/blog"
+            }
+        ],
+        "form": {
+            "title": "hодписывайтесь на нашу новостную рассылку",
+            "emailInpTxt": "эл. адрес",
+            "btnTxt": "представлять на рассмотрение"
+        },
+        "socialLinks": {
+            "title": "подпишитесь на нас в:"
         }
     },
     "switchLang": "переключить язык"

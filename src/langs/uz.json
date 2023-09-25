@@ -117,52 +117,6 @@
                     "btnTxt": "boshlash"
                 }
             }
-        },
-        "footer": {
-            "contacts": [
-                {
-                    "txt": "+998 99 419-40-13",
-                    "url": "tel:+998994194013"
-                },
-                {
-                    "txt": "+998 93 110-49-50",
-                    "url": "tel:+998931104950"
-                },
-                {
-                    "txt": "info@skylinetech.uz",
-                    "url": "mailto:info@skylinetech.uz"
-                },
-                {
-                    "txt": "25 Jangoh, Tashkent",
-                    "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
-                }
-            ],
-            "links": [
-                {
-                    "name": "xizmatlar",
-                    "url": "uz/services"
-                },
-                {
-                    "name": "biz haqimizda",
-                    "url": "uz/about"
-                },
-                {
-                    "name": "portfolio",
-                    "url": "uz/portfolios"
-                },
-                {
-                    "name": "blog",
-                    "url": "uz/blog"
-                }
-            ],
-            "form": {
-                "title": "bizning xabarnomamizga obuna bo'ling",
-                "emailInpTxt": "elektron pochta",
-                "btnTxt": "yuborish"
-            },
-            "socialLinks": {
-                "title": "bizni kuzatib boring:"
-            }
         }
     },
     "services": {
@@ -429,6 +383,52 @@
                     "submitTxt": "yuborish"
                 }
             }
+        }
+    },
+    "footer": {
+        "contacts": [
+            {
+                "txt": "+998 99 419-40-13",
+                "url": "tel:+998994194013"
+            },
+            {
+                "txt": "+998 93 110-49-50",
+                "url": "tel:+998931104950"
+            },
+            {
+                "txt": "info@skylinetech.uz",
+                "url": "mailto:info@skylinetech.uz"
+            },
+            {
+                "txt": "25 Jangoh, Tashkent",
+                "url": "https://goo.gl/maps/emv39WNYV9Y7ody57"
+            }
+        ],
+        "links": [
+            {
+                "name": "xizmatlar",
+                "url": "uz/services"
+            },
+            {
+                "name": "biz haqimizda",
+                "url": "uz/about"
+            },
+            {
+                "name": "portfolio",
+                "url": "uz/portfolios"
+            },
+            {
+                "name": "blog",
+                "url": "uz/blog"
+            }
+        ],
+        "form": {
+            "title": "bizning xabarnomamizga obuna bo'ling",
+            "emailInpTxt": "elektron pochta",
+            "btnTxt": "yuborish"
+        },
+        "socialLinks": {
+            "title": "bizni kuzatib boring:"
         }
     },
     "switchLang": "tilni ozgartirish"
