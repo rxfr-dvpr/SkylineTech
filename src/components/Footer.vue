@@ -77,7 +77,7 @@ export default {
 
 .footer {
   width: 100%;
-  padding: 115px 0 150px;
+  padding-bottom: 150px;
 
   .row {
     justify-content: space-between;

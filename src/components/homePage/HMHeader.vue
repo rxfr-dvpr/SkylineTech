@@ -20,11 +20,15 @@
 export default {
     name: 'Header',
     mounted() {
-        const headerImg = document.querySelector('.header-bg');
-        
+        const headerImg = document.querySelector('.header-bg');        
+        const section = document.querySelector('.services__section');
+        let windowOffSet = window.pageYOffset
+        let num = 0
+
         window.addEventListener('scroll', () => {
-            let num = window.scrollY / 100
-            // headerImg.style.transform = `scale(${window.scrollY <= 0 ? '1' : num})`
+            windowOffSet = window.pageYOffset
+            num = (windowOffSet / 2) / section.offsetTop + 1;
+            headerImg.style.transform = `scale(${num})`
         })
     }
 }
