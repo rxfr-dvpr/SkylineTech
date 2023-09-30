@@ -191,6 +191,7 @@ export default {
             top: 0;
             left: 0;
             z-index: -1;
+            object-fit: cover;
         }
 
         &-descr {

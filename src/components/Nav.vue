@@ -139,6 +139,10 @@ export default {
                     &:hover {
                         color: var(--main-red);
                     }
+
+                    &.router-link-exact-active {
+                        color: var(--main-red);
+                    }
                 }
             }
         }
