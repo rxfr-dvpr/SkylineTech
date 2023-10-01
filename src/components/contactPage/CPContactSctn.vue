@@ -97,8 +97,8 @@ export default {
             })
 
             this.formInputs.map(inp => inp.value = '')
-
-            location.reload()
+            
+            this.$router.push('/')
         }
     }
 }
