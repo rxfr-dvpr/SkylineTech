@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="header__descr">
-                <h1 class="header__descr-title">{{ $t('home.header.title') }}</h1>
-                <p class="header__descr-txt">{{ $t('home.header.txt') }}</p>
+                <h1 class="header__descr-title all-title">{{ $t('home.header.title') }}</h1>
+                <p class="header__descr-txt all-txt">{{ $t('home.header.txt') }}</p>
 
                 <router-link :to="`/${$t('home.header.btn.url')}`" class="red-btn">{{ $t('home.header.btn.txt') }}</router-link>
             </div>
@@ -55,22 +55,9 @@ export default {
         align-items: flex-start;
         row-gap: 30px;
 
-        &-title {
-            font-size: 80px;
-            color: var(--primary-color);
-            text-transform: capitalize;
-            font-weight: 500;
-        }
-
         &-txt {
             max-width: 415px;
             width: 100%;
-            font-size: 25px;
-            color: var(--primary-color);
-
-            &::first-letter {
-                text-transform: uppercase;
-            }
         }
     }
 

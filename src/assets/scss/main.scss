@@ -127,3 +127,22 @@ input[type=number] {
     display: block;
     background: #3f4349;
 }
+
+.all-txt {
+    font-size: 30px;
+    color: var(--primary-color);
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}
+
+.all-title {
+    font-size: 60px;
+    color: var(--primary-color);
+    font-weight: 500;
+
+    &::first-letter {
+        text-transform: uppercase;
+    }
+}

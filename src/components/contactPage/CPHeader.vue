@@ -2,8 +2,8 @@
   <header class="header">
     <div class="container">
         <div class="row">
-            <h1 class="header-title">{{ $t('contactWithUs.header.title') }}</h1>
-            <p class="header-txt">{{ $t('contactWithUs.header.txt') }}</p>
+            <h1 class="header-title all-title">{{ $t('contactWithUs.header.title') }}</h1>
+            <p class="header-txt all-txt">{{ $t('contactWithUs.header.txt') }}</p>
         </div>
     </div>
 
@@ -62,27 +62,7 @@ export default {
 
     &-title, &-txt {
         max-width: 650px;
-    }
-
-    &-title {
         width: 100%;
-        font-size: 60px;
-        color: var(--primary-color);
-        font-weight: 500;
-
-        &::first-letter {
-            text-transform: uppercase;
-        }
-    }
-
-    &-txt {
-        width: 100%;
-        font-size: 30px;
-        color: var(--primary-color);
-
-        &::first-letter {
-            text-transform: uppercase;
-        }
     }
 }
 

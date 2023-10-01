@@ -2,7 +2,7 @@
   <header class="header">
     <div class="container">
         <div class="row">
-            <h1 class="header-title">{{ $t('services.header.title') }}</h1>
+            <h1 class="header-title all-title">{{ $t('services.header.title') }}</h1>
         </div>
     </div>
 
@@ -56,13 +56,6 @@ export default {
     &-title {
         max-width: 750px;
         width: 100%;
-        font-size: 60px;
-        color: var(--primary-color);
-        font-weight: 500;
-
-        &::first-letter {
-            text-transform: uppercase;
-        }
     }
 }
 
