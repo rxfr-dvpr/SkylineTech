@@ -407,19 +407,19 @@
         "links": [
             {
                 "name": "xizmatlar",
-                "url": "uz/services"
+                "url": "/uz/services"
             },
             {
                 "name": "biz haqimizda",
-                "url": "uz/about"
+                "url": "/uz/about"
             },
             {
                 "name": "portfolio",
-                "url": "uz/portfolios"
+                "url": "/uz/portfolios"
             },
             {
                 "name": "blog",
-                "url": "uz/blog"
+                "url": "/uz/blog"
             }
         ],
         "form": {

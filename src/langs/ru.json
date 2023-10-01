@@ -413,19 +413,19 @@
         "links": [
             {
                 "name": "услуги",
-                "url": "ru/services"
+                "url": "/ru/services"
             },
             {
                 "name": "компания",
-                "url": "ru/about"
+                "url": "/ru/about"
             },
             {
                 "name": "портфолио",
-                "url": "ru/portfolios"
+                "url": "/ru/portfolios"
             },
             {
                 "name": "блог",
-                "url": "ru/blog"
+                "url": "/ru/blog"
             }
         ],
         "form": {
