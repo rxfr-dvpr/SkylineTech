@@ -49,6 +49,16 @@ button {
     flex-wrap: wrap;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .get-btn {
     max-width: max-content;
     background: rgb(14, 14, 16);
@@ -74,6 +84,7 @@ button {
 
 .red-btn {
     max-width: max-content;
+    width: 100%;
     background: var(--main-red);
     border: 1px solid var(--main-red);
     border-radius: 5px;

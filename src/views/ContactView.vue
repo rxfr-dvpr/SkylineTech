@@ -1,11 +1,19 @@
 <template>
-  <h1>contact view</h1>
+  <CPHeader/>
+
+  <CPContactSctn/>
 </template>
 
 <script>
+import CPHeader from '@/components/contactPage/CPHeader.vue'
+import CPContactSctn from '@/components/contactPage/CPContactSctn.vue'
 
 export default {
-  name: 'Contact View'
+  name: 'Contact View',
+  components: {
+    CPHeader,
+    CPContactSctn
+  }
 }
 
 </script>
