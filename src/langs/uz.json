@@ -199,7 +199,10 @@
                 "typesList": [
                     {
                         "name": "yangi boshlanuvchilar uchun bulutli tahlil",
-                        "ptp": 1,
+                        "ptp": {
+                            "num": 1,
+                            "txt": "qatnashchi"
+                        },
                         "btnTxt": "join",
                         "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fbooking.png?alt=media&token=4b02ecb5-ed5b-455c-b665-1dbd4429dbb7",
                         "info": {
@@ -253,7 +256,10 @@
                     },
                     {
                         "name": "ma'lumotlarga asoslangan qarorlar qabul qilish",
-                        "ptp": 0,
+                        "ptp": {
+                            "num": 0,
+                            "txt": "qatnashchi"
+                        },
                         "btnTxt": "join",
                         "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Feducation.png?alt=media&token=9b220a95-67f1-4f7e-9958-4883ceada486",
                         "info": {
@@ -307,7 +313,10 @@
                     },
                     {
                         "name": "ma'lumotlarni tahlil qilish vositalari",
-                        "ptp": 0,
+                        "ptp": {
+                            "num": 0,
+                            "txt": "qatnashchi"
+                        },
                         "btnTxt": "join",
                         "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Ffooodie.png?alt=media&token=b41db58b-b4bc-4237-bb7f-5ccdeb07257b",
                         "info": {

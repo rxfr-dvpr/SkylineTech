@@ -9,6 +9,38 @@
                 @click="selectedType(idx)">{{ type.name }}</span>
             </div>
 
+            <div class="portfolios__list">
+                <div class="portfolios__list-item multiple" v-show="typesShowList[0].visible">
+                    <div class="portfolios-project" v-for="(prj, idd) in $tm('portfolios.main.programsSection.typesList')" :key="idd">
+                        <img :src="prj.img" alt="" class="project-img">
+
+                        <div class="project-descr">
+                            <p class="project-descr-name">{{ prj.name }}</p>
+                            <p class="project-descr-ptcpt" v-if="prj.ptp.num">{{ prj.ptp.num }} {{ prj.ptp.txt }}</p>
+
+                            <span class="line-through"></span>
+
+                            <button class="project-descr-btn red-btn">{{ prj.btnTxt }}</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolios__list-item" v-for="(item, id) in $tm('portfolios.main.programsSection.typesList')" :key="id" v-show="typesShowList[id + 1].visible">
+                    <div class="portfolios-project">
+                        <img :src="item.img" alt="" class="project-img">
+
+                        <div class="project-descr">
+                            <p class="project-descr-name">{{ item.name }}</p>
+                            <p class="project-descr-ptcpt" v-if="item.ptp.num">{{ item.ptp.num }} {{ item.ptp.txt }}</p>
+
+                            <span class="line-through"></span>
+
+                            <button class="project-descr-btn red-btn">{{ item.btnTxt }}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
   </section>
@@ -42,6 +74,7 @@ export default {
 
 .portfolios__section {
     width: 100%;
+    padding-bottom: 150px;
 
     .row {
         flex-direction: column;
@@ -66,6 +99,69 @@ export default {
             &.active {
                 border-color: var(--main-red);
                 color: var(--main-red);
+            }
+        }
+    }
+
+    .portfolios__list {
+        max-width: 100%;
+        width: 100%;
+        
+        .portfolios__list-item {
+            width: 100%;
+            
+            .portfolios-project {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                border: solid 1px var(--border-clr);
+
+                .project-descr {
+                    width: 100%;
+                    height: 100%;
+                    padding: 30px 50px;
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 15px;
+                    justify-content: space-between;
+
+                    &-name {
+                        font-size: 21px;
+                        color: var(--primary-color);
+                        text-transform: capitalize;
+                    }
+
+                    &-btn {
+                        max-width: 135px !important;
+                        padding: 10px 15px;
+                    }
+
+                    .line-through {
+                        width: 15%;
+                        height: 1px;
+                        background: var(--border-clr);
+                    }
+
+                    &-ptcpt {
+                        font-size: 15px;
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
+            &:not(.multiple) {
+                .project-img {
+                    width: 100%;
+                }
+            }
+
+            &.multiple {
+                display: flex;
+                flex-wrap: wrap;
+
+                .portfolios-project {
+                    max-width: 578px;
+                }
             }
         }
     }
