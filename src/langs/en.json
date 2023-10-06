@@ -190,27 +190,31 @@
                         "type": "all"
                     },
                     {
-                        "name": "hospitality",
-                        "type": "med"
+                        "name": "shopping",
+                        "type": "shop"
                     },
                     {
-                        "name": "education center",
+                        "name": "education",
                         "type": "edu"
                     },
                     {
-                        "name": "restaurant",
-                        "type": "food"
+                        "name": "iT sphere",
+                        "type": "it"
+                    },
+                    {
+                        "name": "jobs",
+                        "type": "job"
                     }
                 ],
                 "typesList": [
                     {
-                        "name": "booking system for hotels",
+                        "name": "shopping system for e-shops",
                         "ptp": {
                             "num": 1,
                             "txt": "participant"
                         },
                         "btnTxt": "join",
-                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fbooking.png?alt=media&token=4b02ecb5-ed5b-455c-b665-1dbd4429dbb7",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fprtf-1.png?alt=media&token=4581ec30-5317-4827-baa0-36e869b04b67&_gl=1*1yxmzrf*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NjYxMzI5My4xLjEuMTY5NjYxMzQ2Ny41NC4wLjA.",
                         "info": {
                             "title": "about",
                             "descr": [
@@ -261,13 +265,13 @@
                         "loginLink": "log in"
                     },
                     {
-                        "name": "education center",
+                        "name": "education crm center",
                         "ptp": {
                             "num": 0,
                             "txt": "participant"
                         },
                         "btnTxt": "join",
-                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Feducation.png?alt=media&token=9b220a95-67f1-4f7e-9958-4883ceada486",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fprtf-2.png?alt=media&token=a763abc5-e8c3-4f40-92de-2e235abd49eb&_gl=1*1uairgb*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NjYxMzI5My4xLjEuMTY5NjYxMzU2MS42MC4wLjA.",
                         "info": {
                             "title": "about",
                             "descr": [
@@ -339,13 +343,70 @@
                         "loginLink": "log in"
                     },
                     {
-                        "name": "restaurant",
+                        "name": "IT company",
                         "ptp": {
                             "num": 0,
                             "txt": "participant"
                         },
                         "btnTxt": "join",
-                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Ffooodie.png?alt=media&token=b41db58b-b4bc-4237-bb7f-5ccdeb07257b",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fprtf-3.png?alt=media&token=381fd26a-5c2c-4b64-9354-961ac2b07dea&_gl=1*u1on88*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NjYxMzI5My4xLjEuMTY5NjYxMzYxMS4xMC4wLjA.",
+                        "info": {
+                            "title": "about",
+                            "descr": [
+                                {
+                                    "txt": "the principal objective of your website should always be to attract customers to your restaurant and as such an online booking function is the most essential feature. This may lead to another page with your restaurant's opening times and telephone number for those wanting to make reservations by phone"
+                                },
+                                {
+                                    "txt": "you can also join this program via the mobile app."
+                                }
+                            ],
+                            "goLink": {
+                                "txt": "go to the app",
+                                "url": "https://apps.wix.com/place-invites/invite-lp/685a6bdd-782c-4d27-a09d-336980f86e7b"
+                            }
+                        },
+                        "instructorInfo": {
+                            "title": "instructors",
+                            "avatar": "",
+                            "name": "diyorbek xolmurodov"
+                        },
+                        "priceInfo": {
+                            "title": "price",
+                            "price": 0
+                        },
+                        "shareInfo": {
+                            "title": "share",
+                            "links": [
+                                {
+                                    "icon": "<i class='fab fa-facebook'></i>",
+                                    "url": "https://www.facebook.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-twitter'></i>",
+                                    "url": "https://twitter.com/"
+                                },
+                                {
+                                    "icon": "<i class='fab fa-linkedin'></i>",
+                                    "url": "https://www.linkedin.com/"
+                                },
+                                {
+                                    "icon": "<i class='far fa-link'></i>",
+                                    "url": ""
+                                }
+                            ]
+                        },
+                        "requestBtn": "request to join",
+                        "loginTxt": "already a participant?",
+                        "loginLink": "log in"
+                    },
+                    {
+                        "name": "online jobs",
+                        "ptp": {
+                            "num": 0,
+                            "txt": "participant"
+                        },
+                        "btnTxt": "join",
+                        "img": "https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/PortfoliosPage%2FPortfolioProjects%2Fprtf-4.png?alt=media&token=ec780d4e-8f3b-4a30-98a3-d50cb7c674fd&_gl=1*y258pc*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NjYxMzI5My4xLjEuMTY5NjYxNDA0Ny42MC4wLjA.",
                         "info": {
                             "title": "about",
                             "descr": [
