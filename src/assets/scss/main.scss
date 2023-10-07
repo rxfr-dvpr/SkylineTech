@@ -64,12 +64,13 @@ input[type=number] {
     background: rgb(14, 14, 16);
     border: solid 1px #fff;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: calc(10px + 4 * (100vw / 1920));
     text-transform: capitalize;
     color: var(--primary-color);
     display: block;
-    padding: 12px 14px;
+    padding: 10px 12px;
     transition: .4s;
+    min-width: max-content !important;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
@@ -129,7 +130,7 @@ input[type=number] {
 }
 
 .all-txt {
-    font-size: 30px;
+    font-size: calc(16px + 14 * (100vw / 1920));
     color: var(--primary-color);
 
     &::first-letter {
@@ -138,11 +139,31 @@ input[type=number] {
 }
 
 .all-title {
-    font-size: 60px;
+    font-size: calc(28px + 32 * (100vw / 1920));
     color: var(--primary-color);
     font-weight: 500;
 
     &::first-letter {
         text-transform: uppercase;
+    }
+}
+
+@media (min-width: 1920px) {
+    .all-title {
+        font-size: 60px !important;
+    }
+
+    .all-txt {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .all-title {
+        font-size: calc(28px + (32 + 32 * 0.7) * ((100vw - 320px)/ 1920)) !important;
+    }
+
+    .all-txt {
+        font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px)/ 1920)) !important;
     }
 }

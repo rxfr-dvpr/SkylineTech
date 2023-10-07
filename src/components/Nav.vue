@@ -4,30 +4,33 @@
           <div class="container">
               <div class="row">
 
-                  <router-link to="/" class="nav-logo">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-1.png?alt=media&token=de7d2b81-04cd-4078-b868-eec18136cead" alt="" class="logo-brand">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-2.png?alt=media&token=966cff9d-4c30-402b-89bb-680172db7134" alt="" class="logo-name">
-                  </router-link>
+                <router-link to="/" class="nav-logo">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-1.png?alt=media&token=de7d2b81-04cd-4078-b868-eec18136cead" alt="" class="logo-brand">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-2.png?alt=media&token=966cff9d-4c30-402b-89bb-680172db7134" alt="" class="logo-name">
+                </router-link>
 
-                  <div class="nav__collapse">
-                      <ul class="nav__list">
-                          <li class="nav__list-item" v-for='(link, idx) in $tm("nav.links")' :key="idx">
-                              <router-link :to="`/${link.url}`" class="nav__list-link">
-                                  {{ link.name }}
-                              </router-link>
-                          </li>
-                      </ul>
+                <div class="nav__collapse" :class="{'active': mbOpened}" @click.self="mbOpened = false">
+                    <ul class="nav__list">
+                        <li class="nav__list-item" v-for='(link, idx) in $tm("nav.links")' :key="idx">
+                            <router-link :to="`/${link.url}`" class="nav__list-link">
+                                {{ link.name }}
+                            </router-link>
+                        </li>
+                    </ul>
 
-                      <select class="lang-select" @change="onChange">
-                          <option :value="lang.name" class="lang-select-item" 
-                          v-for="(lang, id) in $tm('nav.langs')" :key="id">
-                              {{ lang.name }}
-                          </option>
-                      </select>
+                    <select class="lang-select" @change="onChange">
+                        <option :value="lang.name" class="lang-select-item" 
+                        v-for="(lang, id) in $tm('nav.langs')" :key="id">
+                            {{ lang.name }}
+                        </option>
+                    </select>
+                </div>
 
-                      <router-link :to="`/${$t('nav.btn.url')}`" class="get-btn">{{ $t('nav.btn.txt') }}</router-link>
-                  </div>
+                <router-link :to="`/${$t('nav.btn.url')}`" class="get-btn">{{ $t('nav.btn.txt') }}</router-link>
 
+                <button class="nav-mb-btn get-btn" v-show="wWidth <= 992" @click="mbOpened = !mbOpened" :class="{'opened': mbOpened}">
+                    <span class="nav-mb-btn-line" v-for="i in 3" :key="i"></span>
+                </button>
               </div>
           </div>
         </nav>
@@ -44,7 +47,9 @@ export default {
             i18n: useI18n({useScope: "global"}),
             scrolled: false,
             lastScrollNum: window.scrollY,
-            windowScrollY: window.scrollY
+            windowScrollY: window.scrollY,
+            mbOpened: false,
+            wWidth: window.innerWidth
         }
     },
     methods: {
@@ -62,6 +67,8 @@ export default {
             }
             this.lastScrollNum = window.scrollY
         })
+
+        window.addEventListener('resize', () => this.wWidth = window.innerWidth)
     }
 }
 
@@ -94,6 +101,7 @@ export default {
     .row {
         justify-content: space-between;
         align-items: center;
+        gap: 30px;
     }
 
     &-logo {
@@ -120,6 +128,7 @@ export default {
         display: flex;
         align-items: center;
         gap: 30px;
+        margin-left: auto;
 
         .nav {
             &__list {
@@ -167,5 +176,99 @@ export default {
 }
 
 
+@media (max-width: 992px) {
+    .nav {
+        .row {
+            flex-wrap: unset;
+            gap: 15px;
+        }
+
+        &-logo {
+            flex-direction: column;
+            align-items: center;
+            max-width: 150px;
+
+            .logo-brand {
+                max-width: 50px;
+                width: 100%;
+            }
+        }
+    }
+
+    .nav__collapse {
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10%;
+        background: var(--main-black);
+        opacity: 0;
+        transform: translateX(-120%);
+        transition: .4s;
+
+        .nav__list {
+            flex-direction: column;
+            align-items: center;
+            margin-right: 0;
+
+            &-link {
+                font-size: 20px;
+            }
+        }
+
+        .lang-select {
+            order: -1;
+        }
+
+        &.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .get-btn {
+        margin-left: auto;
+    }
+
+    .nav-mb-btn {
+        z-index: 2026;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 7px;
+        border: 0;
+        background: transparent;
+        
+        &-line {
+            width: 30px;
+            height: 2px;
+            display: block;
+            background: var(--primary-color);
+            transition: .3s;
+        }
+
+        &.opened {
+            .nav-mb-btn {
+                &-line:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &-line:first-child {
+                    transform: translateY(10px) rotate(-45deg);
+                }
+
+                &-line:last-child {
+                    transform: translateY(-8px) rotate(45deg);
+                }
+            }
+        }
+    }
+}
 
 </style>
