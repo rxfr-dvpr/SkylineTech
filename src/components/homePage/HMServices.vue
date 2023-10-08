@@ -147,4 +147,45 @@ export default {
     }
 }
 
+@media (max-width: 992px) {
+    .services__section {
+        .row {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .services {
+            &__descr {
+                max-width: 100%;
+                padding: 50px 20px;
+                border-right: 0;
+                text-align: center;
+
+                &-title, &-txt {
+                    max-width: 500px;
+                }
+            }
+
+            &__cards {
+                max-width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                padding: 40px 15px;
+                gap: 30px;
+
+                &-item {
+                    max-width: 350px;
+                    transform: translateY(0);
+                    height: auto;
+                    justify-content: space-between;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
 </style>

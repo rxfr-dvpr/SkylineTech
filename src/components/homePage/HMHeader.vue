@@ -72,4 +72,14 @@ export default {
     }
 }
 
+@media (max-width: 992px) {
+    .header {
+        &__descr {
+            max-width: 100%;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
 </style>
