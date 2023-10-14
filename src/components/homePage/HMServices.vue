@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="services__descr">
-                <h2 class="services__descr-title">{{ $t('home.main.servicesSection.title') }}</h2>
+                <h2 class="services__descr-title all-md-title">{{ $t('home.main.servicesSection.title') }}</h2>
                 <p class="services__descr-txt">{{ $t('home.main.servicesSection.txt') }}</p>
 
                 <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FServicesSection%2Fservices-bg.png?alt=media&token=7ca0123f-63b4-43ec-928b-d7e36e86e477" alt="" class="bg-img">
@@ -58,7 +58,6 @@ export default {
 
             &-title {
                 max-width: 300px;
-                font-size: 30px;
                 color: var(--primary-color);
                 text-transform: capitalize;
                 font-weight: 500;

@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="mission__descr">
-                <h2 class="mission__descr-title">{{ $t('home.main.missionSection.title') }}</h2>
+                <h2 class="mission__descr-title all-md-title">{{ $t('home.main.missionSection.title') }}</h2>
 
                 <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FMissionSection%2Fmission-bg.png?alt=media&token=52d308f4-4cb7-431c-ad11-92e1328d816d" alt="" class="mission__descr-bg">
             </div>
@@ -52,7 +52,6 @@ export default {
         border-right: solid 1px rgb(63, 67, 73);
 
         &-title {
-            font-size: 30px;
             color: var(--primary-color);
             z-index: 2;
             text-transform: capitalize;
@@ -84,6 +83,35 @@ export default {
 
             &::first-letter {
                 text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .mission__section {
+        .row {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .mission {
+            &__descr {
+                max-width: 100%;
+                padding: 50px 20px;
+                border-right: 0;
+                text-align: center;
+
+                &-title, &-txt {
+                    max-width: 500px;
+                }
+            }
+
+            &__info {
+                padding: 70px 15px;
+                align-items: center;
+                text-align: center;
             }
         }
     }

@@ -148,13 +148,26 @@ input[type=number] {
     }
 }
 
+
+.all-md-title {
+    font-size: calc(26px + 4 * (100vw / 1920));
+}
+
 @media (min-width: 1920px) {
     .all-title {
         font-size: 60px !important;
     }
 
+    .all-md-title {
+        font-size: 30px !important;
+    }
+
     .all-txt {
         font-size: 30px !important;
+    }
+
+    .get-btn {
+        font-size: 14px !important;
     }
 }
 
@@ -165,5 +178,9 @@ input[type=number] {
 
     .all-txt {
         font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px)/ 1920)) !important;
+    }
+
+    .all-md-title {
+        font-size: calc(26px + (4 + 4 * 0.7) * ((100vw - 320px)/ 1920)) !important;
     }
 }

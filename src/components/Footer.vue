@@ -227,4 +227,28 @@ export default {
   }
 }
 
+@media (max-width: 992px) {
+  .footer {
+    padding: 100px 0 150px;
+
+    .row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      row-gap: 50px;
+    }
+
+    &__contact {
+      align-items: center;
+    }
+
+    &__form {
+      align-items: center;
+    }
+
+    &-logo {
+      flex-direction: column;
+    }
+  }
+}
 </style>

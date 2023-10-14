@@ -2,18 +2,15 @@
   <section class="partners__section">
     <div class="container">
       <div class="row">
-
         <div class="partner__logo-box">
           <div class="partner-logo">
-            <p class="partners-title">{{ $t('home.main.partnersSection.title') }}</p>
+            <p class="partners-title all-md-title">{{ $t('home.main.partnersSection.title') }}</p>
           </div>
 
           <div :class="`partner-logo idx-${idx + 1}`" :title="item.title" v-for="(item, idx) in partnersLogo" :key="idx">
             <img :src="item.img" alt="" class="partners-logo-img">
           </div>
-
         </div>
-
       </div>
     </div>
   </section>
@@ -83,9 +80,8 @@ export default {
       }
 
       p {
-        max-width: 50%;
+        max-width: 60%;
         width: 100%;
-        font-size: 30px;
         text-transform: capitalize;
         font-weight: 500;
         color: var(--primary-color);
@@ -94,6 +90,27 @@ export default {
       &.idx-4 {
         border-right: #3F4349 solid 1px;
       }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 !important;
+  }
+  .partner__logo-box {
+    transform: translateY(0%) !important;
+    flex-direction: column;
+  }
+
+  .partner-logo {
+    max-width: 100% !important;
+    border: none !important;
+    text-align: center;
+    border-top: solid 1px #3F4349 !important;
+
+    &:last-child {
+      border-bottom: solid 1px #3F4349 !important;
     }
   }
 }

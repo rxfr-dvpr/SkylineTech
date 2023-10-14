@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row">
 
-        <h2 class="statistic__title">{{ $t('home.main.statisticSection.title') }}</h2>
+        <h2 class="statistic__title all-md-title">{{ $t('home.main.statisticSection.title') }}</h2>
 
         <div class="statistic__list">
           <div class="statistic__list-item" v-for="(item, idx) in $tm('home.main.statisticSection.infoNumbers')" :key="idx">
-            <p class="item-num">{{ item.num }} </p>
+            <p class="item-num all-title">{{ item.num }} </p>
             <p class="item-name">{{ item.name }}</p>
 
             <span class="bottom-line"></span>
@@ -39,10 +39,12 @@ export default {
 <style lang="scss" scoped>
 
 .statistic__section {
+  max-width: 2600px;
   width: 100%;
   overflow: hidden;
   position: relative;
   padding: 100px 0 500px;
+  margin: 0 auto;
 
   .row {
     flex-direction: column;
@@ -52,7 +54,6 @@ export default {
   }
 
   .statistic__title {
-    font-size: 30px;
     color: var(--primary-color);
     text-transform: capitalize;
     font-weight: 500;
@@ -63,6 +64,7 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 
     &-item {
       max-width: 170px;
@@ -74,7 +76,6 @@ export default {
       .item-num {
         color: var(--main-red);
         font-weight: 500;
-        font-size: 60px;
       }
 
       .item-name {
@@ -92,6 +93,17 @@ export default {
     left: 20%;
     object-fit: cover;
     z-index: -1;
+  }
+}
+
+@media (max-width: 992px) {
+  .statistic__section {
+    padding: 70px 0 200px;
+  }
+
+  .statistic__list {
+    flex-wrap: wrap;
+    justify-content: center !important;
   }
 }
 
