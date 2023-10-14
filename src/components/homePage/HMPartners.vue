@@ -8,7 +8,7 @@
           </div>
 
           <div :class="`partner-logo idx-${idx + 1}`" :title="item.title" v-for="(item, idx) in partnersLogo" :key="idx">
-            <img :src="item.img" alt="" class="partners-logo-img">
+            <img :src="item.img" alt="" class="partner-logo-img">
           </div>
         </div>
       </div>
@@ -24,21 +24,25 @@ export default {
     return {
       partnersLogo: [
         {
-          title: 'mikron',
-          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fmikron.png?alt=media&token=e2291f5b-a8e1-4b30-a128-6581e86103b9'
+          title: 'redfox',
+          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fredfox.png?alt=media&token=354691cd-67a2-4683-8a54-2111c514e6cb&_gl=1*pidegw*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NzI2NzA2Mi4yLjEuMTY5NzI2NzE1Mi40MS4wLjA.'
         },
         {
-          title: 'pome granate',
-          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fpome.png?alt=media&token=65218e57-f0dd-484b-8470-8cd25b17a0c3'
+          title: 'mod me',
+          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2FModme.png?alt=media&token=b9816ce0-a01a-493a-b58a-4ee6473c6604&_gl=1*9dhft*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NzI2NzA2Mi4yLjEuMTY5NzI2NzU5MC41My4wLjA.'
         },
         {
-          title: 'garmoosh',
-          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fgarmoosh.png?alt=media&token=a160f249-5185-440a-a8e3-a0a757fb8cd9'
+          title: 'a host',
+          img: 'https://www.ahost.uz/sites/all/themes/ahost/logo.png'
         },
         {
-          title: 'velocity',
-          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fvelocity.png?alt=media&token=352ef178-8a0d-4e1c-83b3-d044f570e381'
-        }
+          title: 'mzuka',
+          img: 'https://firebasestorage.googleapis.com/v0/b/m-zuka.appspot.com/o/logo.svg?alt=media&token=afacb956-7dd4-40c6-8b2a-06bb5078a7f3'
+        },
+        {
+          title: 'digital ocean',
+          img: 'https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/HomePage%2FPartnersSection%2Fdigitalocean.png?alt=media&token=2699de86-d524-4818-847a-db09a87935e3&_gl=1*xmxwhv*_ga*MTI0MjczNTM3OC4xNjk2NjEzMjky*_ga_CW55HF8NVT*MTY5NzI2NzA2Mi4yLjEuMTY5NzI2ODIyNC4zMS4wLjA.'
+        },
       ]
     }
   }
@@ -74,8 +78,7 @@ export default {
       word-wrap: break-word;
 
       &-img {
-        max-width: 150px;
-        width: 100%;
+        max-width: 100px;
         object-fit: contain;
       }
 
@@ -87,7 +90,7 @@ export default {
         color: var(--primary-color);
       }
 
-      &.idx-4 {
+      &:last-child {
         border-right: #3F4349 solid 1px;
       }
     }
