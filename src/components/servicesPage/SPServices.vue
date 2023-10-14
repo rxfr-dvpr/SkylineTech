@@ -2,7 +2,7 @@
   <section class="sp-services__section">
     <div class="container">
         <div class="row">
-            <h2 class="services-title">{{ $t('services.main.servicesSection.title') }}</h2>
+            <h2 class="services-title all-md-title">{{ $t('services.main.servicesSection.title') }}</h2>
 
             <div class="services__list">
                 <div class="services__list-item" 
@@ -22,7 +22,7 @@
 
             <div class="services__info">
                 <div class="services__info-box">
-                    <p class="services__info-name">{{ $t('services.main.servicesSection.info.title') }}</p>
+                    <p class="services__info-name all-md-title">{{ $t('services.main.servicesSection.info.title') }}</p>
                     <img :src="servicesInfoBg" alt="" class="services__info-bg">
                 </div>
 
@@ -67,7 +67,6 @@ export default {
     }
 
     .services-title {
-        font-size: 30px;
         color: var(--primary-color);
         text-transform: capitalize;
         font-weight: 400;
@@ -180,7 +179,6 @@ export default {
             max-width: 280px;
             width: 100%;
             text-align: center;
-            font-size: 30px;
             color: var(--primary-color);
             text-transform: capitalize;
         }
@@ -210,6 +208,62 @@ export default {
 
             &::first-letter {
                 text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .sp-services__section {
+        .row {
+            align-items: center;
+            text-align: center;
+        }
+
+        .services__list {
+            max-width: 550px;
+            width: 100%;
+            align-items: center;
+
+            &-item {
+                flex-direction: column;
+                align-items: center;
+                padding: 65px 0;
+                row-gap: 15px;
+    
+                .item-icon-box {
+                    max-width: 85px;
+                    border: 0;
+                    padding: 0;
+                }
+
+                .item-descr {
+                    text-align: center;
+                    padding: 0 35px;
+                }
+            }
+        }
+
+        .services__info {
+            flex-direction: column;
+            align-items: center;
+            row-gap: 40px;
+            padding-bottom: 50px;
+            margin-top: 100px;
+            border: solid 1px var(--border-clr);
+
+            &-box {
+                max-width: 100%;
+                border-right: unset;
+            }
+
+            &-bg {
+                width: 100%;
+                transform: translate(0) !important;
+            }
+
+            &-txt {
+                max-width: 600px;
             }
         }
     }

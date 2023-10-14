@@ -98,24 +98,30 @@ export default {
 }
 
 @media (max-width: 992px) {
-  .container {
-    padding: 0 !important;
-  }
-  .partner__logo-box {
-    transform: translateY(0%) !important;
-    flex-direction: column;
-  }
 
-  .partner-logo {
-    max-width: 100% !important;
-    border: none !important;
-    text-align: center;
-    border-top: solid 1px #3F4349 !important;
-
-    &:last-child {
-      border-bottom: solid 1px #3F4349 !important;
+  .partners__section {
+    padding-bottom: 100px;
+    
+    .container {
+      padding: 0 !important;
+    }
+    .partner__logo-box {
+      transform: translateY(0%) !important;
+      flex-direction: column;
+    }
+  
+    .partner-logo {
+      max-width: 100% !important;
+      border: none !important;
+      text-align: center;
+      border-top: solid 1px #3F4349 !important;
+  
+      &:last-child {
+        border-bottom: solid 1px #3F4349 !important;
+      }
     }
   }
+
 }
 
 </style>
