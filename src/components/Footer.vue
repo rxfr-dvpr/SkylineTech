@@ -27,9 +27,9 @@
           <p class="footer__form-title">{{ $t('footer.form.title') }}</p>
 
           <label for="emailInp">{{ $t('footer.form.emailInpTxt') }}*</label>
-          <input type="email" id="emailInp" class="footer__form-email" required v-model="emailVal">
+          <input type="email" id="emailInp" class="footer__form-email" v-model="emailVal">
 
-          <button class="submit-btn get-btn">{{ $t('footer.form.btnTxt') }}</button>
+          <button @click="this.$router.push('/contact')" class="submit-btn get-btn">{{ $t('footer.form.btnTxt') }}</button>
         </form>
 
         <div class="footer__social">

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="about__info">
-                    <h3 class="about__info-title">{{ $t('about.main.aboutSection.title') }}</h3>
+                    <h3 class="about__info-title all-md-title">{{ $t('about.main.aboutSection.title') }}</h3>
 
                     <img :src="aboutInfoBg" alt="" class="about__info-bg">
                 </div>
@@ -62,7 +62,6 @@ export default {
         overflow: hidden;
 
         &-title {
-            font-size: 30px;
             font-weight: 600;
             text-transform: capitalize;
             color: var(--primary-color);
@@ -96,6 +95,34 @@ export default {
             &::first-letter {
                 text-transform: uppercase;
             }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__info {
+        max-width: 100% !important;
+        border-right: 0 !important;
+        padding: 150px 0 !important;
+
+        &-bg {
+            width: 100%;
+            transform: translate(0) !important;
+        }
+    }
+
+    .about__descr {
+        max-width: 100% !important;
+        text-align: center;
+        padding: 40px 15px;
+
+        &-txt {
+            max-width: 100% !important;
         }
     }
 }
