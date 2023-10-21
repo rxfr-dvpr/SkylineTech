@@ -262,7 +262,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://mzuka.uz/"
                     },
                     {
                         "name": "education crm center",
@@ -340,7 +341,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://modme.uz"
                     },
                     {
                         "name": "IT company",
@@ -397,7 +399,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://redfox.uz"
                     },
                     {
                         "name": "online jobs",
@@ -454,7 +457,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://digitalocean.com"
                     }
                 ]
             }

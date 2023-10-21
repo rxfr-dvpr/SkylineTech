@@ -256,7 +256,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://mzuka.uz/"
                     },
                     {
                         "name": "ma'lumotlarga asoslangan sistema yaratish",
@@ -313,7 +314,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://modme.uz"
                     },
                     {
                         "name": "iT kompaniya",
@@ -370,7 +372,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://redfox.uz"
                     },
                     {
                         "name": "ish qidirish platformasi",
@@ -427,7 +430,8 @@
                         },
                         "requestBtn": "request to join",
                         "loginTxt": "already a participant?",
-                        "loginLink": "log in"
+                        "loginLink": "log in",
+                        "link": "https://digitalocean.com"
                     }
                 ]
             }

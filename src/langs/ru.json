@@ -262,7 +262,8 @@
                         },
                         "requestBtn": "запросить участие",
                         "loginTxt": "уже являетесь участником?",
-                        "loginLink": "войти"
+                        "loginLink": "войти",
+                        "link": "https://mzuka.uz/"
                     },
                     {
                         "name": "образовательный центр CRM",
@@ -319,7 +320,8 @@
                         },
                         "requestBtn": "запросить участие",
                         "loginTxt": "уже являетесь участником?",
-                        "loginLink": "войти"
+                        "loginLink": "войти",
+                        "link": "https://modme.uz"
                     },
                     {
                         "name": "ИТ-компания",
@@ -376,7 +378,8 @@
                         },
                         "requestBtn": "запросить участие",
                         "loginTxt": "уже являетесь участником?",
-                        "loginLink": "войти"
+                        "loginLink": "войти",
+                        "link": "https://redfox.uz"
                     },
                     {
                         "name": "работа в Интернете",
@@ -433,7 +436,8 @@
                         },
                         "requestBtn": "запросить участие",
                         "loginTxt": "уже являетесь участником?",
-                        "loginLink": "войти"
+                        "loginLink": "войти",
+                        "link": "https://digitalocean.com"
                     }
                 ]
             }

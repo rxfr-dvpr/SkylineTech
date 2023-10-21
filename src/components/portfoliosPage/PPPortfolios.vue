@@ -20,7 +20,7 @@
 
                             <span class="line-through"></span>
 
-                            <button class="project-descr-btn red-btn">{{ prj.btnTxt }}</button>
+                            <a :href="prj.link" target="_blank" class="project-descr-btn red-btn">{{ prj.btnTxt }}</a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
 
                             <span class="line-through"></span>
 
-                            <button class="project-descr-btn red-btn">{{ item.btnTxt }}</button>
+                            <a :href="item.link" target="_blank" class="project-descr-btn red-btn">{{ item.btnTxt }}</a>
                         </div>
                     </div>
                 </div>
@@ -133,6 +133,8 @@ export default {
                     &-btn {
                         max-width: 135px !important;
                         padding: 10px 15px;
+                        display: grid;
+                        place-items: center;
                     }
 
                     .line-through {
