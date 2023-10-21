@@ -490,10 +490,6 @@
             {
                 "name": "portfolio",
                 "url": "/uz/portfolios"
-            },
-            {
-                "name": "blog",
-                "url": "/uz/blog"
             }
         ],
         "form": {

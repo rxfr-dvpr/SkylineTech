@@ -141,6 +141,7 @@ export default {
         width: 100%;
         display: grid;
         place-items: center;
+        padding: 20px;
 
         .contact__form {
             max-width: 510px;
@@ -148,6 +149,7 @@ export default {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
+            justify-content: center;
 
             &-box {
                 max-width: 245px;
@@ -182,6 +184,26 @@ export default {
                 max-width: 100%;
             }
         }
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+
+    .contact__info {
+        max-width: 100% !important;
+        border-right: unset !important;
+        border-bottom: 1px solid var(--border-clr);
+        padding: 70px 0 !important;
+    }
+
+    .contact__form-parent {
+        max-width: 100% !important; 
     }
 }
 

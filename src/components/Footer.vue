@@ -229,6 +229,7 @@ export default {
 
 @media (max-width: 992px) {
   .footer {
+    padding-bottom: 20px;
     .row {
       flex-direction: column;
       align-items: center;

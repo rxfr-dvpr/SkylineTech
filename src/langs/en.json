@@ -517,10 +517,6 @@
             {
                 "name": "portfolios",
                 "url": "portfolios"
-            },
-            {
-                "name": "blog",
-                "url": "blog"
             }
         ],
         "form": {

@@ -12,7 +12,7 @@
                 <div class="nav__collapse" :class="{'active': mbOpened}" @click.self="mbOpened = false">
                     <ul class="nav__list">
                         <li class="nav__list-item" v-for='(link, idx) in $tm("nav.links")' :key="idx">
-                            <router-link :to="`/${link.url}`" class="nav__list-link">
+                            <router-link :to="`/${link.url}`" @click="mbOpened = false" class="nav__list-link">
                                 {{ link.name }}
                             </router-link>
                         </li>
@@ -55,7 +55,7 @@ export default {
     methods: {
         onChange(e) {
             this.i18n.locale = e.target.value
-            // localStorage.lang = e.target.value
+            this.mbOpened = false
         }
     },
     mounted() {
@@ -175,7 +175,6 @@ export default {
     }
 }
 
-
 @media (max-width: 992px) {
     .nav {
         .row {
@@ -210,6 +209,7 @@ export default {
         opacity: 0;
         transform: translateX(-120%);
         transition: .4s;
+        justify-content: center;
 
         .nav__list {
             flex-direction: column;

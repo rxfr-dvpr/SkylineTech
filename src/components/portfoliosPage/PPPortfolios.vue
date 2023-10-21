@@ -85,6 +85,7 @@ export default {
         width: 100%;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
 
         &-item {
             font-size: 15px;
@@ -123,9 +124,10 @@ export default {
                     flex-direction: column;
                     row-gap: 15px;
                     justify-content: space-between;
+                    transition: .3s;
 
                     &-name {
-                        font-size: 21px;
+                        font-size: calc(17px + 4 * (100vw / 1920));
                         color: var(--primary-color);
                         text-transform: capitalize;
                     }
@@ -160,10 +162,48 @@ export default {
                 display: flex;
                 flex-wrap: wrap;
 
+                @media (max-width: 1765px) {
+                    justify-content: center;
+                    gap: 15px;
+                }
+
                 .portfolios-project {
                     max-width: 578px;
                 }
+
+                .project-img {
+                    max-height: 280px;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
             }
+        }
+    }
+}
+
+@media (min-width: 1920px) {
+    .project-descr {
+        &-name {
+            font-size: 21px !important;
+        }
+    }
+}
+
+@media (max-width: 1110px) {
+    .project-descr {
+        padding: 20px 30px !important;
+    }
+}
+
+@media (max-width: 386px) {
+    .portfolios__types {
+        flex-direction: column;
+        align-items: center;
+
+        &-item {
+            width: 100%;
+            text-align: center;
         }
     }
 }

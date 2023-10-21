@@ -496,10 +496,6 @@
             {
                 "name": "портфолио",
                 "url": "/ru/portfolios"
-            },
-            {
-                "name": "блог",
-                "url": "/ru/blog"
             }
         ],
         "form": {

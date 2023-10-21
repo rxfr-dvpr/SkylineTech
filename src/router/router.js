@@ -32,12 +32,6 @@ const router = createRouter({
       name: 'contact',
       alias: ['/ru/contact', '/uz/contact'],
       component: () => import('@/views/ContactView.vue')
-    },
-    {
-      path: '/blog',
-      name: 'blog',
-      alias: ['/ru/blog', '/uz/blog'],
-      component: () => import('@/views/BlogView.vue')
     }
   ]
 })
