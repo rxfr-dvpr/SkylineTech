@@ -5,8 +5,8 @@
               <div class="row">
 
                 <router-link to="/" class="nav-logo">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-1.png?alt=media&token=de7d2b81-04cd-4078-b868-eec18136cead" alt="" class="logo-brand">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/logo-2.png?alt=media&token=966cff9d-4c30-402b-89bb-680172db7134" alt="" class="logo-name">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20ll.png?alt=media&token=233b301a-0b75-41cf-bc35-69a88e585289" alt="" class="logo-brand">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20pp.png?alt=media&token=6560ba6a-eb10-48ea-950d-dcc6ff35ecc3" alt="" class="logo-name">
                 </router-link>
 
                 <div class="nav__collapse" :class="{'active': mbOpened}" @click.self="mbOpened = false">
@@ -112,7 +112,7 @@ export default {
         gap: 10px;
 
         .logo-brand {
-            max-width: 90px;
+            max-width: 85px;
             width: 100%;
         }
 
