@@ -5,7 +5,7 @@ import uz from "./uz.json";
 export let defaultLocale = 'ru'
 
 export const languages = {
-    en,
     ru,
+    en,
     uz
 }
