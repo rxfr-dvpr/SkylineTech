@@ -39,6 +39,9 @@
             <a :href="link.url" target="_blank" v-for="(link, idx) in socialLinks" :key="idx" 
             :class="`footer__social-link id-${idx + 1}`" v-html="link.icon"></a>
           </div>
+
+          <a href="https://top-fwz1.mail.ru/jump?from=3418862">
+          <img src="https://top-fwz1.mail.ru/counter?id=3418862;t=584;l=1" height="40" width="88" alt="Top.Mail.Ru" style="border:0;" /></a>
         </div>
 
       </div>
@@ -195,6 +198,13 @@ export default {
   }
 
   &__social {
+    max-width: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+
     &-title {
       font-size: 18px;
       color: var(--main-gray);
@@ -247,6 +257,10 @@ export default {
 
     &-logo {
       flex-direction: column;
+    }
+
+    &__social {
+      align-items: center;
     }
   }
 }
