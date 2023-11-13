@@ -43,9 +43,9 @@
           <a href="https://top-fwz1.mail.ru/jump?from=3418862">
           <img src="https://top-fwz1.mail.ru/counter?id=3418862;t=584;l=1" height="40" width="88" alt="Top.Mail.Ru" style="border:0;" /></a>
 
-          <a href="https://metrika.yandex.ru/stat/?id=95556616&amp;from=informer" 
-          target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/95556616/3_0_FF6666FF_FF6666FF_0_pageviews" 
-          style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" /></a>
+          <!-- Yandex.Metrika informer -->
+          <a href="https://metrika.yandex.ru/stat/?id=95556616&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/95556616/3_0_FF5353FF_FF3333FF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="95556616" data-lang="ru" /></a>
+          <!-- /Yandex.Metrika informer -->
         </div>
 
       </div>
