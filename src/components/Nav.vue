@@ -5,8 +5,8 @@
               <div class="row">
 
                 <router-link to="/" class="nav-logo">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20ll.png?alt=media&token=233b301a-0b75-41cf-bc35-69a88e585289" alt="" class="logo-brand">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20pp.png?alt=media&token=6560ba6a-eb10-48ea-950d-dcc6ff35ecc3" alt="" class="logo-name">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20ll.png?alt=media&token=f09a519c-e62e-46af-a59b-0102ed3d0d8f" alt="" class="logo-brand">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/skylinetech-d4da1.appspot.com/o/skyline%20pp.png?alt=media&token=c99b7471-0a5a-44f7-889c-a9651abff6ab" alt="" class="logo-name">
                 </router-link>
 
                 <div class="nav__collapse" :class="{'active': mbOpened}" @click.self="mbOpened = false">
