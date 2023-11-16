@@ -66,12 +66,12 @@ export default {
           url: 'https://www.facebook.com/'
         },
         {
-          icon: '<i class="fab fa-linkedin"></i>',
-          url: 'https://www.linkedin.com/'
+          icon: '<i class="fab fa-telegram"></i>',
+          url: 'https://t.me/SkylineTech_uz'
         },
         {
           icon: '<i class="fab fa-instagram"></i>',
-          url: 'https://www.instagram.com/'
+          url: 'https://www.instagram.com/skylinetech.uz/'
         }
       ]
     }
@@ -225,6 +225,11 @@ export default {
 
     &-link {
       font-size: 25px;
+      transition: .7s;
+
+      &:hover {
+        transform: scale(1.3);
+      }
 
       &.id-1 {
         color: #4267B2;
