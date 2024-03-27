@@ -32,7 +32,12 @@ const router = createRouter({
       name: 'contact',
       alias: ['/ru/contact', '/uz/contact'],
       component: () => import('@/views/ContactView.vue')
-    }
+    },
+    { 
+      path: '/:pathMatch(.*)*', 
+      name: 'NotFound', 
+      component: () => import('@/views/NotFound.vue') 
+    },
   ]
 })
 

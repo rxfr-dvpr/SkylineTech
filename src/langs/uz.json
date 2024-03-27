@@ -501,5 +501,9 @@
             "title": "bizni kuzatib boring:"
         }
     },
-    "switchLang": "tilni ozgartirish"
+    "switchLang": "tilni ozgartirish",
+    "notfound": {
+        "backMsg": "bosh sahifaga qaytish",
+        "msg": "sahifa topilmadi"
+    }
 }

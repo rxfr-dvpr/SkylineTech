@@ -528,5 +528,9 @@
             "title": "follow us on:"
         }
     },
-    "switchLang": "switch language"
+    "switchLang": "switch language",
+    "notfound": {
+        "backMsg": "back to home page",
+        "msg": "page not found"
+    }
 }
